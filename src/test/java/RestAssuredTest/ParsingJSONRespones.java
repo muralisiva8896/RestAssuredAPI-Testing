@@ -30,7 +30,7 @@ public class ParsingJSONRespones {
         Assert.assertEquals(res.getStatusCode(),200);//Validation 1
         Assert.assertEquals(res.header("Content-Type"), "application/json; charset=utf-8");//Validation 2
         String title = res.jsonPath().get("[2].title".toString());//Validation 3
-        Assert.assertEquals(title, "Moby Dick");//Validation 4
+        Assert.assertEquals(title, "Moby Dick");//Validation 4 added to check commit
 
     }
 
