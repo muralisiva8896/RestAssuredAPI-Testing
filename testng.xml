@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Intellij_Projects/RestAssured/src/test/java/RestAssuredTest/Chaining">
+        <classes>
+            <class name="RestAssuredTest.Chaining.CreateUser"><methods><include name="test_createUser"/></methods></class>
+            <class name="RestAssuredTest.Chaining.GetUser"><methods><include name="test_Getuser"/></methods></class>
+            <class name="RestAssuredTest.Chaining.UpdateUser"><methods><include name="test_updateUser"/></methods></class>
+            <class name="RestAssuredTest.Chaining.DeleteUser"><methods><include name="test_deleteUser"/></methods></class>
+        </classes>
+    </test>
+</suite>
